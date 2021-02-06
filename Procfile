@@ -1,1 +1,1 @@
-web: troi
+web: bin/go-troi
