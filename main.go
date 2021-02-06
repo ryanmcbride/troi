@@ -168,6 +168,8 @@ func handleGetConnectWidget(c *gin.Context) {
 	}
 	c.String(http.StatusOK, "{\"error\":\"error\"}")
 }
+
+//tons of fun
 func handleGetAccounts(c *gin.Context) {
 	id := c.Params.ByName("device_id")
 	var user User
