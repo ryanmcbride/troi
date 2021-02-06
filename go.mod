@@ -1,6 +1,6 @@
 module github.com/ryanmcbride/troi
 
-go 1.15
+go1.15
 
 require (
 	github.com/gin-gonic/gin v1.6.3
