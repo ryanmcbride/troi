@@ -1,7 +1,9 @@
 {
 	"comment": "",
   "heroku":{
-  "goVersion":"go1.15"},
+   "install" : [ "./..." ],
+   "goVersion":"go1.15"
+  },
 	"ignore": "test",
 	"package": [],
 	"rootPath": "github.com/ryanmcbride/troi"
